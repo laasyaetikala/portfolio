@@ -60,6 +60,12 @@ let swiperSkill = new Swiper(".skills_container", {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+      
+      breakpoints: {
+        1024: {
+            slidesPerView: 4,
+        }
+    }
   });
 
 
